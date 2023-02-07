@@ -1,0 +1,62 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\bagad\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\bagad\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\bagad\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-11.0.18.10-hotspot\bin;C:\Python311\Scripts;C:\Python311;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\bagad\AppData\Local\Android\Sdk;C:\Users\bagad\AppData\Local\Android\Sdk\platform-tools;C:\Users\bagad\AppData\Local\Microsoft\WindowsApps;C:\Users\bagad\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\bagad\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.2\bin;C:\Users\bagad\AppData\Local\Android\Sdk;C:\Users\bagad\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 64:ff9b::14cf:4952:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1487:16)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "private": true,
+    "dependencies": {
+      "@expo/vector-icons": "^10.0.6",
+      "antd-mobile": "^2.1.8",
+      "expo": "^36.0.0",
+      "expo-ads-admob": "~8.0.0",
+      "expo-asset": "~8.0.0",
+      "expo-constants": "~8.0.0",
+      "expo-file-system": "~8.0.0",
+      "expo-font": "~8.0.0",
+      "expo-linear-gradient": "~8.0.0",
+      "firebase": "^7.13.1",
+      "moment": "^2.22.1",
+      "native-base": "^2.4.3",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+      "react-native-countdown": "0.0.3",
+      "react-native-countdown-clock": "^2.0.2",
+      "react-native-countdown-component": "^1.6.0",
+      "react-native-countdown-hint": "^0.0.3",
+      "react-native-render-html": "^4.2.0",
+      "react-native-star-rating": "^1.0.9",
+      "react-native-swiper-flatlist": "^1.0.6",
+      "react-native-timeago": "^0.4.0",
+      "react-native-vector-icons": "^6.6.0",
+      "react-native-webview": "7.4.3",
+      "react-navigation": "^1.5.11",
+      "tcomb-form-native": "^0.6.20"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^7.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
